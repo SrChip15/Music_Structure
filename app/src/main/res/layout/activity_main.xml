@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A237E"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicstructureapp.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="@dimen/bottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/vinyl_banner" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom"
+        android:text="New Realeases"
+        android:textAppearance="@style/PlayerText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom"
+        android:text="Top Charts"
+        android:textAppearance="@style/PlayerText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom"
+        android:text="Recommended"
+        android:textAppearance="@style/PlayerText" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom"
+        android:text="Playlists"
+        android:textAppearance="@style/PlayerText" />
+
+</LinearLayout>
