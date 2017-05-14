@@ -15,6 +15,7 @@
         android:src="@drawable/vinyl_banner" />
 
     <TextView
+        android:id="@+id/new_releases_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/bottom"

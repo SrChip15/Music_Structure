@@ -16,6 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NewReleases"
+            android:label="New Releases" />
+        <activity
+            android:name=".TopCharts"
+            android:label="Top Charts" />
+        <activity
+            android:name=".Recommended"
+            android:label="Recommended" />
+        <activity
+            android:name=".Playlists"
+            android:label="Playlists" />
+        <activity
+            android:name=".AlbumScreen"
+            android:label="Album" />
+        <activity
+            android:name=".PlaylistScreen"
+            android:label="Playlists" />
     </application>
 
 </manifest>
