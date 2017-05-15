@@ -8,10 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="PlayerText" parent="@android:style/TextAppearance">
+    <style name="BannerText" parent="@android:style/TextAppearance">
         <!-- Font style for the text within the music player -->
-        <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/banner_text_size</item>
+    </style>
+
+    <style name="DescText" parent="BannerText">
+        <!-- Text size for the descriptive text contained within TextViews -->
+        <item name="android:textSize">@dimen/desc_text_size</item>
+    </style>
+
+    <style name="ButtonStyling">
+        <item name="android:background">@color/buttonColor</item>
     </style>
 
 </resources>

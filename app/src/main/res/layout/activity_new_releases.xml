@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="Albums"
-            android:textAppearance="@style/PlayerText" />
+            android:textAppearance="@style/BannerText" />
 
         <ImageView
             android:id="@+id/new_releases_banner_image_view"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="Playlists"
-            android:textAppearance="@style/PlayerText" />
+            android:textAppearance="@style/BannerText" />
 
         <LinearLayout
             android:layout_width="match_parent"

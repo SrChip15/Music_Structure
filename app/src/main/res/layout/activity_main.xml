@@ -3,44 +3,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1A237E"
+    android:background="@color/screenColor"
     android:orientation="vertical"
     tools:context="com.example.android.musicstructureapp.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="@dimen/larger_image_height"
         android:layout_marginBottom="@dimen/bottom"
         android:scaleType="centerCrop"
         android:src="@drawable/vinyl_banner" />
 
     <TextView
         android:id="@+id/new_releases_text_view"
+        style="@style/BannerText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/bottom"
-        android:text="New Realeases"
-        android:textAppearance="@style/PlayerText" />
+        android:text="@string/main_page_first_act" />
 
     <TextView
+        style="@style/BannerText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/bottom"
-        android:text="Top Charts"
-        android:textAppearance="@style/PlayerText" />
+        android:text="@string/main_page_second_act" />
 
     <TextView
+        style="@style/BannerText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/bottom"
-        android:text="Recommended"
-        android:textAppearance="@style/PlayerText" />
+        android:text="@string/main_page_third_act" />
 
     <TextView
+        style="@style/BannerText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/bottom"
-        android:text="Playlists"
-        android:textAppearance="@style/PlayerText" />
+        android:text="@string/main_page_fourth_act" />
+
+    <TextView
+        style="@style/BannerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bottom"
+        android:text="@string/main_page_fifth_act" />
 
 </LinearLayout>

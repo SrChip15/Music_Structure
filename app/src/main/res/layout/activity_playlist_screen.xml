@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1A237E"
+    android:background="@color/screenColor"
     tools:context="com.example.android.musicstructureapp.PlaylistScreen">
 
     <LinearLayout
@@ -13,53 +13,53 @@
         android:orientation="vertical">
 
         <TextView
+            style="@style/DescText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="@dimen/bottom"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="@string/playlist_screen_desc"
-            android:textColor="@android:color/white"
-            android:textSize="24sp" />
+            android:text="@string/playlist_screen_desc" />
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="@dimen/artwork_square"
+            android:layout_height="@dimen/artwork_square"
             android:layout_marginBottom="@dimen/bottom"
             android:layout_marginLeft="@dimen/left_margin"
             android:scaleType="centerCrop"
             android:src="@drawable/playlist_screen_playlist_art" />
 
         <Button
-            android:layout_width="150dp"
+            android:id="@+id/shuffle_play_button"
+            style="@style/ButtonStyling"
+            android:layout_width="@dimen/artwork_square"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:backgroundTint="#76FF03"
-            android:text="shuffle play" />
+            android:text="@string/shuffle_button" />
 
 
         <TextView
+            android:id="@+id/song_1"
+            style="@style/BannerText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="Song 1"
-            android:textAppearance="@style/PlayerText"
-            android:textColor="@android:color/white" />
+            android:text="Song 1" />
 
         <TextView
+            android:id="@+id/song_2"
+            style="@style/BannerText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="Song 2"
-            android:textAppearance="@style/PlayerText"
-            android:textColor="@android:color/white" />
+            android:text="Song 2" />
 
         <TextView
+            android:id="@+id/song_3"
+            style="@style/BannerText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="Song 3"
-            android:textAppearance="@style/PlayerText"
-            android:textColor="@android:color/white" />
+            android:text="Song 3" />
 
     </LinearLayout>
 
