@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Music Player [Prototype]</string>
+    <string name="playlist_screen_desc">Point of Screen: Displays list of songs from the
+        selected playlist. Provides the option to add song to user library or remove song from the
+        playlist.
+        \n\nTechnical hurdles: Shuffle playing the songs or modifying the list. Should the user
+        choose to modify the list and shuffle play, then saving the shuffled order in a temporary
+        storage without changing the main playlist.
+        </string>
+    <string name="new_releases_desc_text_view">Technical hurdle: Implementing swipe right for more
+    albums or playlists</string>
+    <string name="album_screen_desc">Point of Screen: Displays the lists of songs from the selected
+    album. Facilitates the user to cherry pick songs to be added to the user\'s\ library</string>
 
 </resources>

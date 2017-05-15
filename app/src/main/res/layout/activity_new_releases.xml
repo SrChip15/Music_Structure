@@ -1,56 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1A237E"
-    android:orientation="vertical"
     tools:context="com.example.android.musicstructureapp.NewReleases">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Albums"
-        android:textAppearance="@style/PlayerText" />
-
-    <ImageView
-        android:id="@+id/new_releases_banner_image_view"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:padding="16dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/new_releases_album_banner" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Playlists"
-        android:textAppearance="@style/PlayerText" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:text="Albums"
+            android:textAppearance="@style/PlayerText" />
 
         <ImageView
-            android:id="@+id/new_releases_playlist_one_image_view"
-            android:layout_width="0dp"
+            android:id="@+id/new_releases_banner_image_view"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_margin="8dp"
-            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:padding="16dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/new_release_playlist_banner_one" />
+            android:src="@drawable/new_releases_album_banner" />
 
-        <ImageView
-            android:id="@+id/new_releases_playlist_two_image_view"
-            android:layout_width="0dp"
-            android:layout_height="200dp"
-            android:layout_margin="8dp"
-            android:layout_weight="1"
-            android:scaleType="centerCrop"
-            android:src="@drawable/new_release_playlist_banner_two" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:text="Playlists"
+            android:textAppearance="@style/PlayerText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bottom"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/new_releases_playlist_one_image_view"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/new_release_playlist_banner_one" />
+
+            <ImageView
+                android:id="@+id/new_releases_playlist_two_image_view"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/new_release_playlist_banner_two" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:text="@string/new_releases_desc_text_view"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
-
-</LinearLayout>
+</ScrollView>
