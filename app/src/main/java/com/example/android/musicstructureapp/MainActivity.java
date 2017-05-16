@@ -57,5 +57,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Setup listener for recommended TextView to navigate to own screen
+        TextView playlistsTextView = (TextView) findViewById(R.id.playlists_text_view);
+        playlistsTextView.setOnClickListener(new View.OnClickListener() {
+
+            // Implement onClick
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, Playlists.class);
+                startActivity(i);
+            }
+        });
     }
 }

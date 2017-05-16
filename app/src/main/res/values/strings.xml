@@ -6,7 +6,6 @@
     <string name="main_page_third_act">Top Albums</string>
     <string name="main_page_fourth_act">Recommended</string>
     <string name="main_page_fifth_act">Playlists</string>
-    <string name="main_page_sixth_act">Store</string>
     <string name="album">Albums</string>
     <string name="playlists">Playlists</string>
     <string name="songs">Songs</string>
@@ -21,6 +20,9 @@
     <string name="genre_info">Genre</string>
     <string name="song_screen_song_name">Song Name</string>
     <string name="song_screen_artist_name">Artist Name</string>
+    <string name="playlist_pop">Pop</string>
+    <string name="playlist_workout">Workout</string>
+    <string name="playlist_motivation">Motivation</string>
 
 
     <string name="playlist_screen_desc">Point of Screen: Displays list of songs from the
@@ -62,4 +64,16 @@
         while beginning to play a song or album or playlist.
     </string>
 
+    <string name="playlists_desc">Point of Screen: Displays list of playlists that are grouped based
+    on different genres and moods. This screen would be implemented as a vertical ScrollView with each
+    row housing three playlist cards. Each playlist card would be designed with a playlist art, which
+        would be super-imposed by the playlist\'s\ name and a small portion of the right side of the
+        card will contain playlist stats, like how many times was it liked and its genre.
+    </string>
+
+    <string name="playlists_addtnl_desc">
+        Each genre or mood based playlist opens up to its playlists screen. The purpose is to let the
+        user view the songs in the playlist and allow the user to play a modified or default version
+        of the same playlist.
+    </string>
 </resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenColor"
+    tools:context="com.example.android.musicstructureapp.Playlists">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/DescText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bigger_bottom"
+            android:text="@string/playlists_desc" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/bigger_bottom">
+
+            <TextView
+                android:id="@+id/playlist_one"
+                style="@style/BannerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/eight_dips_margin"
+                android:text="@string/playlist_pop" />
+
+            <TextView
+                android:id="@+id/playlist_two"
+                style="@style/BannerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/eight_dips_margin"
+                android:text="@string/playlist_workout" />
+
+            <TextView
+                android:id="@+id/playlist_three"
+                style="@style/BannerText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/eight_dips_margin"
+                android:text="@string/playlist_motivation" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/DescText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/playlists_addtnl_desc" />
+
+    </LinearLayout>
+
+</ScrollView>

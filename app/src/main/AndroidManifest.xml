@@ -37,6 +37,9 @@
         <activity
             android:name=".TopAlbums"
             android:label="@string/album" />
+        <activity
+            android:name=".Playlists"
+            android:label="Playlists" />
     </application>
 
 </manifest>
