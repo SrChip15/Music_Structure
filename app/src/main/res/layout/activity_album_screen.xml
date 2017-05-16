@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1A237E"
+    android:background="@color/screenColor"
     tools:context="com.example.android.musicstructureapp.AlbumScreen">
 
     <LinearLayout
@@ -15,17 +15,17 @@
             style="@style/DescText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/bottom"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/album_screen_desc" />
 
         <ImageView
             android:layout_width="@dimen/artwork_square"
             android:layout_height="@dimen/artwork_square"
-            android:layout_marginBottom="@dimen/bottom"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
             android:scaleType="centerCrop"
-            android:src="@drawable/new_releases_album_screen_art" />
+            android:src="@drawable/sample_album_art_two" />
 
         <Button
             android:id="@+id/shuffle_play_button"
@@ -40,7 +40,7 @@
             style="@style/BannerText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/bottom"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="Song 1" />
 
@@ -49,7 +49,7 @@
             style="@style/BannerText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/bottom"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="Song 2" />
 
@@ -58,7 +58,7 @@
             style="@style/BannerText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/bottom"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="Song 3" />
 

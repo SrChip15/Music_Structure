@@ -23,5 +23,28 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        // Setup listener for top songs text view
+        TextView topSongsTextView = (TextView) findViewById(R.id.top_songs_text_view);
+        topSongsTextView.setOnClickListener(new View.OnClickListener() {
+
+            // Implement onClick
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, TopSongs.class);
+                startActivity(i);
+            }
+        });
+
+        // Setup listener for top albums text view
+        TextView topAlbumsTextView = (TextView) findViewById(R.id.top_albums_text_view);
+        topAlbumsTextView.setOnClickListener(new View.OnClickListener() {
+
+            // Implement onClick
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, TopAlbums.class);
+                startActivity(i);
+            }
+        });
+
     }
 }

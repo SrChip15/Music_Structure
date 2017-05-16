@@ -20,9 +20,6 @@
             android:name=".NewReleases"
             android:label="New Releases" />
         <activity
-            android:name=".TopCharts"
-            android:label="Top Charts" />
-        <activity
             android:name=".Recommended"
             android:label="Recommended" />
         <activity
@@ -30,10 +27,16 @@
             android:label="Album" />
         <activity
             android:name=".PlaylistScreen"
-            android:label="Playlists" />
+            android:label="@string/playlists" />
         <activity
             android:name=".NowPlaying"
-            android:label="Now Playing" />
+            android:label="@string/now_playing" />
+        <activity
+            android:name=".TopSongs"
+            android:label="@string/songs" />
+        <activity
+            android:name=".TopAlbums"
+            android:label="@string/album" />
     </application>
 
 </manifest>

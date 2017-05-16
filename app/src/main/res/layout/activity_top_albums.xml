@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenColor"
+    tools:context="com.example.android.musicstructureapp.TopAlbums">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/top_albums_row_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/eight_dips_margin"
+            android:layout_marginTop="@dimen/eight_dips_margin">
+
+            <TextView
+                android:id="@+id/album_one_spot_text_view"
+                style="@style/DescText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/spot_one" />
+
+            <ImageView
+                android:id="@+id/album_one"
+                android:layout_width="@dimen/two_hundred_fifty_dims"
+                android:layout_height="@dimen/artwork_square"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:layout_toRightOf="@id/album_one_spot_text_view"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_album_art_one" />
+
+            <LinearLayout
+                android:layout_width="@dimen/hundred_dips_dims"
+                android:layout_height="@dimen/artwork_square"
+                android:layout_toRightOf="@id/album_one"
+                android:background="@color/song_or_album_stats"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/album_one_liked_icon_text_view"
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/eight_dips_margin"
+                    android:text="@string/icon" />
+                <!-- Finished music player app will have
+                Trending icon placed in an ImageView -->
+
+                <TextView
+                    android:id="@+id/album_one_liked_text_view"
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/no_of_likes" />
+                <!-- Finished music player app will have
+                a heart icon placed in an ImageView -->
+
+                <TextView
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/eight_dips_margin"
+                    android:text="@string/sample_number" />
+
+                <TextView
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/genre_info" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/top_albums_row_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
+            android:layout_marginLeft="@dimen/eight_dips_margin"
+            android:layout_marginRight="@dimen/eight_dips_margin">
+
+            <TextView
+                android:id="@+id/album_two_spot_text_view"
+                style="@style/DescText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/spot_two" />
+
+            <ImageView
+                android:id="@+id/album_two"
+                android:layout_width="@dimen/two_hundred_fifty_dims"
+                android:layout_height="@dimen/artwork_square"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:layout_toRightOf="@id/album_two_spot_text_view"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_album_art_two" />
+
+            <LinearLayout
+                android:layout_width="@dimen/hundred_dips_dims"
+                android:layout_height="@dimen/artwork_square"
+                android:layout_toRightOf="@id/album_two"
+                android:background="@color/song_or_album_stats"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/album_two_liked_icon_text_view"
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/eight_dips_margin"
+                    android:text="@string/icon" />
+                <!-- Finished music player app will have
+                Trending icon placed in an ImageView -->
+
+                <TextView
+                    android:id="@+id/album_two_liked_text_view"
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/no_of_likes" />
+                <!-- Finished music player app will have
+                a heart icon placed in an ImageView -->
+
+                <TextView
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/eight_dips_margin"
+                    android:text="@string/sample_number" />
+
+                <TextView
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/genre_info" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/top_albums_row_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
+            android:layout_marginLeft="@dimen/eight_dips_margin"
+            android:layout_marginRight="@dimen/eight_dips_margin">
+
+            <TextView
+                android:id="@+id/album_three_spot_text_view"
+                style="@style/DescText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/spot_three" />
+
+            <ImageView
+                android:id="@+id/album_three"
+                android:layout_width="@dimen/two_hundred_fifty_dims"
+                android:layout_height="@dimen/artwork_square"
+                android:layout_marginLeft="@dimen/left_margin"
+                android:layout_toRightOf="@id/album_three_spot_text_view"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_album_art_three" />
+
+            <LinearLayout
+                android:layout_width="@dimen/hundred_dips_dims"
+                android:layout_height="@dimen/artwork_square"
+                android:layout_toRightOf="@id/album_three"
+                android:background="@color/song_or_album_stats"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/album_three_liked_icon_text_view"
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/eight_dips_margin"
+                    android:text="@string/icon" />
+                <!-- Finished music player app will have
+                Trending icon placed in an ImageView -->
+
+                <TextView
+                    android:id="@+id/album_three_liked_text_view"
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/no_of_likes" />
+                <!-- Finished music player app will have
+                a heart icon placed in an ImageView -->
+
+                <TextView
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/eight_dips_margin"
+                    android:text="@string/sample_number" />
+
+                <TextView
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/genre_info" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

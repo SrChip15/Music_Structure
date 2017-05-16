@@ -16,14 +16,14 @@
             style="@style/DescText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/bottom"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
             android:text="@string/playlist_screen_desc" />
 
         <ImageView
             android:layout_width="@dimen/artwork_square"
             android:layout_height="@dimen/artwork_square"
-            android:layout_marginBottom="@dimen/bottom"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
             android:scaleType="centerCrop"
             android:src="@drawable/playlist_screen_playlist_art" />

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screenColor"
+    tools:context="com.example.android.musicstructureapp.TopSongs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/song_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
+            android:layout_marginTop="@dimen/headroom">
+
+            <TextView
+                style="@style/BannerText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/spot_one" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/hundred_dips_dims"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_album_art_two" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/BannerText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_margin"
+                    android:text="@string/song_screen_song_name" />
+
+
+                <TextView
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_margin"
+                    android:text="@string/song_screen_artist_name" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/DescText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/song_stats_info" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/song_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/eight_dips_margin">
+
+            <TextView
+                style="@style/BannerText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/spot_two" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/hundred_dips_dims"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_album_art_one" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/BannerText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_margin"
+                    android:text="@string/song_screen_song_name" />
+
+
+                <TextView
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_margin"
+                    android:text="@string/song_screen_artist_name" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/DescText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/song_stats_info" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/song_row_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/eight_dips_margin">
+
+            <TextView
+                style="@style/BannerText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="@string/spot_three" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/hundred_dips_dims"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/sample_album_art_three" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/BannerText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_margin"
+                    android:text="@string/song_screen_song_name" />
+
+
+                <TextView
+                    style="@style/DescText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/left_margin"
+                    android:text="@string/song_screen_artist_name" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/DescText"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/song_stats_info" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/DescText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/songs_screen_desc" />
+
+    </LinearLayout>
+
+</ScrollView>

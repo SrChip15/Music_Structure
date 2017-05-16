@@ -2,10 +2,24 @@
     <string name="app_name">Music Player [Prototype]</string>
 
     <string name="main_page_first_act">New Releases</string>
-    <string name="main_page_second_act">Top Charts</string>
-    <string name="main_page_third_act">Recommended</string>
-    <string name="main_page_fourth_act">Playlists</string>
-    <string name="main_page_fifth_act">Store</string>
+    <string name="main_page_second_act">Top Songs</string>
+    <string name="main_page_third_act">Top Albums</string>
+    <string name="main_page_fourth_act">Recommended</string>
+    <string name="main_page_fifth_act">Playlists</string>
+    <string name="main_page_sixth_act">Store</string>
+    <string name="album">Albums</string>
+    <string name="playlists">Playlists</string>
+    <string name="songs">Songs</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="spot_one">1</string>
+    <string name="spot_two">2</string>
+    <string name="spot_three">3</string>
+    <string name="song_stats_info">Song Stats</string>
+    <string name="icon">icon</string>
+    <string name="no_of_likes">#liked</string>
+    <string name="sample_number">1000</string>
+    <string name="genre_info">Genre</string>
+
 
     <string name="playlist_screen_desc">Point of Screen: Displays list of songs from the
         selected playlist. Provides the option to add song to user library or remove song from the
@@ -26,5 +40,11 @@
     <string name="now_playing_seekbar">This is where the seekbar along with audio control buttons go</string>
 
     <string name="shuffle_button">shuffle play</string>
+
+    <string name="song_screen_song_name">Song Name</string>
+    <string name="song_screen_artist_name">Artist Name</string>
+    <string name="songs_screen_desc">Point of Screen: Displays list of Top Charts songs in chronological
+    order.\n\nSong stats tile gives rich information like trending up/down icon, no of times favorited
+    and the genre of the song</string>
 
 </resources>

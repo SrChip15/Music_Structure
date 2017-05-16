@@ -6,4 +6,5 @@
     <color name="buttonColor">#76FF03</color>
     <color name="textColor">@android:color/white</color>
     <color name="screenColor">#1A237E</color>
+    <color name="song_or_album_stats">@android:color/black</color>
 </resources>

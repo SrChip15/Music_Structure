@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1A237E"
+    android:background="@color/screenColor"
     tools:context="com.example.android.musicstructureapp.NewReleases">
 
     <LinearLayout
@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="Albums"
+            android:text="@string/album"
             android:textAppearance="@style/BannerText" />
 
         <ImageView
@@ -25,19 +25,19 @@
             android:layout_marginLeft="@dimen/left_margin"
             android:padding="16dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/new_releases_album_banner" />
+            android:src="@drawable/sample_album_art_one" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="Playlists"
+            android:text="@string/playlists"
             android:textAppearance="@style/BannerText" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/bottom"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
             android:orientation="horizontal">
 
@@ -48,7 +48,7 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/new_release_playlist_banner_one" />
+                android:src="@drawable/playlist_art_banner_one" />
 
             <ImageView
                 android:id="@+id/new_releases_playlist_two_image_view"
@@ -57,7 +57,7 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/new_release_playlist_banner_two" />
+                android:src="@drawable/playlist_art_banner_two" />
 
         </LinearLayout>
 
