@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Set up listener for new releases text view
+        // Setup listener for new releases text view
         TextView newReleasesTextView = (TextView) findViewById(R.id.new_releases_text_view);
         newReleasesTextView.setOnClickListener(new View.OnClickListener() {
 
@@ -42,6 +42,17 @@ public class MainActivity extends AppCompatActivity {
             // Implement onClick
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, TopAlbums.class);
+                startActivity(i);
+            }
+        });
+
+        // Setup listener for recommended TextView to navigate to own screen
+        TextView recommendedTextView = (TextView) findViewById(R.id.recommended_text_view);
+        recommendedTextView.setOnClickListener(new View.OnClickListener() {
+
+            // Implement onClick
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, Recommended.class);
                 startActivity(i);
             }
         });

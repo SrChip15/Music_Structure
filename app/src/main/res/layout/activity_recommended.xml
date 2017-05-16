@@ -1,8 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/screenColor"
     tools:context="com.example.android.musicstructureapp.Recommended">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/DescText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
+            android:text="@string/recommended_screen_desc" />
+
+        <TextView
+            style="@style/BannerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
+            android:text="@string/songs" />
+
+        <TextView
+            style="@style/BannerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
+            android:text="@string/album" />
+
+        <TextView
+            style="@style/BannerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/eight_dips_margin"
+            android:text="@string/playlists" />
+
+        <TextView
+            style="@style/DescText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recommended_categories_desc" />
+
+    </LinearLayout>
+
+</ScrollView>

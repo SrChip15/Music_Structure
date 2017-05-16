@@ -43,6 +43,7 @@
             android:text="@string/main_page_third_act" />
 
         <TextView
+            android:id="@+id/recommended_text_view"
             style="@style/BannerText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

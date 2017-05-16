@@ -19,6 +19,8 @@
     <string name="no_of_likes">#liked</string>
     <string name="sample_number">1000</string>
     <string name="genre_info">Genre</string>
+    <string name="song_screen_song_name">Song Name</string>
+    <string name="song_screen_artist_name">Artist Name</string>
 
 
     <string name="playlist_screen_desc">Point of Screen: Displays list of songs from the
@@ -41,10 +43,23 @@
 
     <string name="shuffle_button">shuffle play</string>
 
-    <string name="song_screen_song_name">Song Name</string>
-    <string name="song_screen_artist_name">Artist Name</string>
     <string name="songs_screen_desc">Point of Screen: Displays list of Top Charts songs in chronological
     order.\n\nSong stats tile gives rich information like trending up/down icon, no of times favorited
     and the genre of the song</string>
+
+    <string name="recommended_screen_desc">Point of Screen: Displays recommended audio content
+    tailored to user tastes and preferences. The audio content would be presented in three categories,
+    namely - Songs, Albums and Playlists
+    \n\nTechnical hurdles: Building and integrating a recommender engine that accurately displays
+    content per user tastes and preferences</string>
+
+    <string name="recommended_categories_desc">Songs category would implement a vertical list view
+        where each row would be a song card with song stats info.\nAlbums category would implement a
+        horizontal scrollview of albums that are displayed as vinyl disks with the name of the album
+        on the vinyl.\nPlaylists would implement a horizontal scroll view too with square tiles with
+        playlist art and a scrim at the bottom with the name of the playlist. Each scrollable element
+        would be registered to a listener, where each listener navigates to the now playing screen
+        while beginning to play a song or album or playlist.
+    </string>
 
 </resources>
