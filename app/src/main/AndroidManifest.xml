@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.musicstructureapp">
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.android.musicstructureapp">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
             android:name=".NewReleases"
-            android:label="New Releases" />
+            android:label="New Releases"/>
         <activity
             android:name=".Recommended"
-            android:label="Recommended" />
+            android:label="Recommended"/>
         <activity
             android:name=".AlbumScreen"
-            android:label="Album" />
+            android:label="Album"/>
         <activity
             android:name=".PlaylistScreen"
-            android:label="@string/playlists" />
+            android:label="@string/playlists"/>
         <activity
             android:name=".NowPlaying"
-            android:label="@string/now_playing" />
+            android:label="@string/now_playing"/>
         <activity
             android:name=".TopSongs"
-            android:label="@string/songs" />
+            android:label="@string/songs"/>
         <activity
             android:name=".TopAlbums"
-            android:label="@string/album" />
+            android:label="@string/album"/>
         <activity
             android:name=".Playlists"
-            android:label="Playlists" />
+            android:label="Playlists"/>
     </application>
 
 </manifest>
