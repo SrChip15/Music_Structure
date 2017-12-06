@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Music Player [Prototype]</string>
-
     <string name="main_page_first_act">New Releases</string>
     <string name="main_page_second_act">Top Songs</string>
     <string name="main_page_third_act">Top Albums</string>
