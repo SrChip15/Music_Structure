@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/screenColor"
-    tools:context="com.example.android.musicstructureapp.PlaylistScreen">
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/screenColor"
+            tools:context="com.example.android.musicstructureapp.PlaylistScreen">
 
     <LinearLayout
-
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="ContentDescription">
 
         <TextView
             style="@style/DescText"
@@ -18,15 +18,17 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="@string/playlist_screen_desc" />
+            android:layout_marginStart="@dimen/left_margin"
+            android:text="@string/playlist_screen_desc"/>
 
         <ImageView
             android:layout_width="@dimen/artwork_square"
             android:layout_height="@dimen/artwork_square"
             android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginStart="@dimen/left_margin"
             android:scaleType="centerCrop"
-            android:src="@drawable/playlist_screen_playlist_art" />
+            android:src="@drawable/playlist_screen_playlist_art"/>
 
         <Button
             android:id="@+id/shuffle_play_button"
@@ -34,7 +36,8 @@
             android:layout_width="@dimen/artwork_square"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="@string/shuffle_button" />
+            android:layout_marginStart="@dimen/left_margin"
+            android:text="@string/shuffle_button"/>
 
 
         <TextView
@@ -43,7 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="Song 1" />
+            android:layout_marginStart="@dimen/left_margin"
+            android:text="@string/song_1_label"/>
 
         <TextView
             android:id="@+id/song_2"
@@ -51,7 +55,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="Song 2" />
+            android:layout_marginStart="@dimen/left_margin"
+            android:text="@string/song_2_label"/>
 
         <TextView
             android:id="@+id/song_3"
@@ -59,7 +64,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
-            android:text="Song 3" />
+            android:layout_marginStart="@dimen/left_margin"
+            android:text="@string/song_3_label"/>
 
     </LinearLayout>
 

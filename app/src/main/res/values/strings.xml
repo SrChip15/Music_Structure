@@ -75,4 +75,7 @@
         user view the songs in the playlist and allow the user to play a modified or default version
         of the same playlist.
     </string>
+    <string name="song_1_label">Song 1</string>
+    <string name="song_2_label">Song 2</string>
+    <string name="song_3_label">Song 3</string>
 </resources>

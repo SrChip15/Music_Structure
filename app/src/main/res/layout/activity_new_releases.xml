@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,37 +9,42 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="ContentDescription">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginStart="@dimen/left_margin"
             android:text="@string/album"
-            android:textAppearance="@style/BannerText" />
+            android:textAppearance="@style/BannerText"/>
 
         <ImageView
             android:id="@+id/new_releases_banner_image_view"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginStart="@dimen/left_margin"
             android:padding="16dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/sample_album_art_one" />
+            android:src="@drawable/sample_album_art_one"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginStart="@dimen/left_margin"
             android:text="@string/playlists"
-            android:textAppearance="@style/BannerText" />
+            android:textAppearance="@style/BannerText"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/eight_dips_margin"
             android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginStart="@dimen/left_margin"
             android:orientation="horizontal">
 
             <ImageView
@@ -48,7 +54,7 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/playlist_art_banner_one" />
+                android:src="@drawable/playlist_art_banner_one"/>
 
             <ImageView
                 android:id="@+id/new_releases_playlist_two_image_view"
@@ -57,7 +63,7 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:scaleType="centerCrop"
-                android:src="@drawable/playlist_art_banner_two" />
+                android:src="@drawable/playlist_art_banner_two"/>
 
         </LinearLayout>
 
@@ -65,9 +71,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginStart="@dimen/left_margin"
             android:text="@string/new_releases_desc_text_view"
             android:textColor="@android:color/white"
-            android:textSize="16sp" />
+            android:textSize="16sp"/>
 
     </LinearLayout>
 

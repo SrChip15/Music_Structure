@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,19 +13,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/bigger_bottom"
-        android:text="@string/now_playing_desc" />
+        android:text="@string/now_playing_desc"/>
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="@dimen/larger_image_height"
         android:layout_marginBottom="@dimen/bigger_bottom"
-        android:src="@drawable/now_playing_art" />
+        android:src="@drawable/now_playing_art"
+        tools:ignore="ContentDescription"/>
 
     <TextView
         style="@style/DescText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/now_playing_seekbar" />
+        android:text="@string/now_playing_seekbar"/>
 
 </LinearLayout>
